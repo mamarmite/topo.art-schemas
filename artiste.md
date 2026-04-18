@@ -1,11 +1,6 @@
-# Le schema pour les artistes (Pesron)
+# Le schema pour les artistes (Person)
 
-## Documentation
-https://culturecreates.github.io/artsdata-data-model/classes/person.html
-
-## Questions :
-
-1. Est-ce qu'on ajoute `DisambiguatingDescription` ([doc](https://kg.artsdata.ca/en/entity?uri=http%3A%2F%2Fschema.org%2FdisambiguatingDescription), [schema.org](https://schema.org/disambiguatingDescription))
+La modélisation retenue pour les personnes suit un schéma minimal. Pour compenser la quantité minimale d'information de désambiguïsation, nous avons intégré le maximum de liens externes : l'URL du site web de l'artiste, ainsi que des liens vers ses identifiants pérennes externes via la propriété `sameAs`.
 
 ## Exemple le plus complexe supporté.
 
@@ -13,26 +8,20 @@ https://culturecreates.github.io/artsdata-data-model/classes/person.html
 {
   "@type": "Person",
   "@id": "https://topo.art/r#a8467",
-  "additionalType": "",
   "name": "Michel Huneault",
   "alternateName": "Michel Huneault",
+  "disambiguatingDescription": "Artiste québécois."
   "image": "",
   "url": "http://michelhuneault.com/",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Montréal",
-    "addressRegion": "QC",
-    "postalCode": "H2T 3B2",
-    "streetAddress": "5445 avenue de Gaspé",
-    "addressCountry": "CA"
-  },
   "sameAs": [
     "https://www.facebook.com/michel.huneault",
     "http://www.wikidata.org/entity/Q24705892"
-  ],
-  "disambiguatingDescription": ""
+  ]
 }
 ```
+
+## Documentation
+[https://culturecreates.github.io/artsdata-data-model/classes/person.html](https://docs.artsdata.ca/classes/person.html)
 
 ## Notes
 La propriété “identifier” est superflue. Tout d’abord, l’ISBN n’est pas un identifiant de personnes. Ensuite, tous les identifiants pertinents pour les personnes peuvent être représentés sous forme d’URI et renseignés sous la propriété “sameAs”.
