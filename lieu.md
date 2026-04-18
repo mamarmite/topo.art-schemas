@@ -3,6 +3,8 @@
 
 ## Schema
 
+La modélisation retenue pour les lieux suit le schéma standard. À noter : nous avons intégré des liens vers des identifiants pérennes externes via la propriété `sameAs`.
+
 ```json
 {
   "@type": "Place",
