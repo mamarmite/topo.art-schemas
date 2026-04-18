@@ -1,5 +1,8 @@
-# Schema Oeuvre (CreativeWork)
-https://culturecreates.github.io/artsdata-data-model/classes/offer.html
+# Schéma Œuvre (CreativeWork)
+
+L'œuvre est définie à la fois avec le type `schema:CreativeWork` et le type additionnel `lrmoo:F1_Work` afin de favoriser l'interopérabilité avec l'ontologie LRMoo, harmonisée avec CIDOC-CRM. Cela facilite la mise en relation des données des arts médiatiques avec celles du secteur muséal.
+
+Le lien entre l'œuvre et les personnes qui l'ont créée est articulé avec la propriété `creator`. 
 
 ```json
 {
@@ -34,7 +37,7 @@ https://culturecreates.github.io/artsdata-data-model/classes/offer.html
 }
 ```
 
-# Questionnement
+## Questionnement
 
 ## disambiguatingDescription
 Il pourrait s’avérer intéressant de générer de façon programmatique une description de désambiguïsation suivant une formule telle que : “œuvre de {{creator.name}}...” Cela pourrait faciliter la récupération d’enregistrements de données dans une interface de recherche.
