@@ -24,3 +24,7 @@ La modélisation retenue pour les lieux suit le schéma standard. À noter : nou
   ]
 }
 ```
+
+## Documentation
+
+https://docs.artsdata.ca/classes/place.html
