@@ -1,4 +1,4 @@
-# Schema Organisation
+# Schéma Organisation
 
 ```json
 {
@@ -15,3 +15,7 @@
   ]
 }
 ```
+
+## Documentation
+
+https://docs.artsdata.ca/classes/organization.html
