@@ -22,4 +22,4 @@ Voici le document de travail de la version 1 de l'identifiant pérenne pour les 
 
 # Notes
 
-Quelques questions ont été posé et répondu pendant le projet. Quelques-unes ont été regrouper dans la section [Questions](questions.md)
+Quelques questions ont été posées et répondues pendant le projet. Quelques-unes ont été regroupées dans la section [Questions](questions.md)
