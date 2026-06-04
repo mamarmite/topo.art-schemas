@@ -37,6 +37,9 @@ Le lien entre l'œuvre et les personnes qui l'ont créée est articulé avec la 
 }
 ```
 
+## Fortement recommandé
+1. Il faut ajouter un créateur à une oeuvre `creator`
+
 ## Questionnement
 
 ## disambiguatingDescription
