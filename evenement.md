@@ -11,7 +11,7 @@ Cet exemple de données structurées décrit à la fois l’exposition, avec son
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "@id": "https://topo.art/r#e1",
+  "@id": "http://topo.art/r/t1",
   "additionalType": "http://kg.artsdata.ca/resource/ExhibitionEvent",
   "Name": "4 heures | Michel Huneault et Johann Mazé",
   "alternateName": "Film d’observation non linéaire",
@@ -35,7 +35,7 @@ Cet exemple de données structurées décrit à la fois l’exposition, avec son
   "location": [
     {
       "@type": "Place",
-      "@id": "https://topo.art/r#p1",
+      "@id": "http://topo.art/r/t1",
       "name": "La Vitrine",
       "address": {
         "@type": "PostalAddress",
@@ -52,7 +52,7 @@ Cet exemple de données structurées décrit à la fois l’exposition, avec son
     },
     {
       "@type": "VirtualLocation",
-      "url": "https://topo.art/4heures//"
+      "url": "https://topo.art/4heures/"
     }
   ],
   "eventStatus": "https://schema.org/EventScheduled",
@@ -64,7 +64,7 @@ Cet exemple de données structurées décrit à la fois l’exposition, avec son
   "organizer": [
     {
       "@type": "Organization",
-      "@id": "https://topo.art/r#o1",
+      "@id": "http://topo.art/r/t1",
       "name": "TOPO",
       "url": "https://topo.art/",
       "sameAs": [
@@ -74,17 +74,24 @@ Cet exemple de données structurées décrit à la fois l’exposition, avec son
       ]
     }
   ],
+  "performer": [
+    {
+      "@type": "Organization",
+      "@id": "http://topo.art/r/t1",
+      "name": "TOPO",
+    }
+  ],
   "workFeatured": [
     {
       "@type": "CreativeWork",
-      "@id": "https://topo.art/r#c882",
+      "@id": "http://topo.art/r/t882",
       "additionalType": "http://www.wikidata.org/entity/Q11424",
       "name": "4 heures",
       "url": "https://topo.art/4heures/",
       "creator": [
         {
           "@type": "Person",
-          "@id": "https://topo.art/r#a8467",
+          "@id": "http://topo.art/r/t8467",
           "name": "Michel Huneault",
           "url": "http://michelhuneault.com/",
           "sameAs": [
@@ -94,7 +101,7 @@ Cet exemple de données structurées décrit à la fois l’exposition, avec son
         },
         {
           "@type": "Person",
-          "@id": "https://topo.art/r#a8469",
+          "@id": "http://topo.art/r/t8469",
           "name": "Johann Mazé",
           "sameAs": "https://johannmaze.bandcamp.com/"
         }
@@ -118,7 +125,7 @@ Dans cet exemple, étant donné qu’un vernissage est un événement social cé
    "@id": "https://topo.art/programmation/4-heures-michel-huneault-et-johann-maze/#vernissage",
    "additionalType": "http://kg.artsdata.ca/resource/SocialEvent",
    "name": "Vernissage 4 heures | Michel Huneault et Johann Mazé",
-   "about": "https://topo.art/r#e1",
+   "about": "http://topo.art/r/t1",
    "startDate": "2023-05-25T17:00:00-04:00",
    "endDate": "2023-05-25T19:00:00-04:00",
    "location":

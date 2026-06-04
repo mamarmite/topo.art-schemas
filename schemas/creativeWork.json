@@ -1,6 +1,6 @@
 {
   "@type": "Event",
-  "@id": "http://topo.art/r/e8338",
+  "@id": "http//topo.art/r/t8338",
   "name": "NOS CHÂTEAUX DE SABLE | Michel Huneault",
   "startTime": "2025-11-06T23:00:00+00:00",
   "endTime": "2025-11-16T00:00:00+00:00",
@@ -27,7 +27,7 @@
   "organizer": [
     {
       "@type": "Organization",
-      "@id": "http://topo.art/r/o8486",
+      "@id": "http//topo.art/r/t8486",
       "name": "TOPO",
       "url": "http://localhost:8080/organization/topo/",
       "additionalType": "http://kg.artsdata.ca/resource/ArtsOrganization",
@@ -50,7 +50,7 @@
   "workFeatured": [
     {
       "@type": "CreativeWork",
-      "@id": "http://topo.art/r/c882",
+      "@id": "http//topo.art/r/t882",
       "name": "4 heures",
       "url": "http://localhost:8080/production/4-heures-michel-huneault-et-johann-maze/",
       "additionalType": "http://iflastandards.info/ns/lrm/lrmoo/F1",
@@ -58,7 +58,7 @@
       "creator": [
         {
           "@type": "Person",
-          "@id": "http://topo.art/r/a8467",
+          "@id": "http//topo.art/r/t8467",
           "name": "Michel Huneault",
           "alternateName": "Mikehu",
           "url": "http://localhost:8080/artiste/michel-huneault-2/",
@@ -88,7 +88,7 @@
         },
         {
           "@type": "Person",
-          "@id": "http://topo.art/r/a683",
+          "@id": "http//topo.art/r/t683",
           "name": "Johann Mazé",
           "url": "http://localhost:8080/artiste/johann-maze/",
           "image": {
@@ -102,7 +102,7 @@
         },
         {
           "@type": "Person",
-          "@id": "http://topo.art/r/a7139",
+          "@id": "http//topo.art/r/t7139",
           "name": "Maxime-Alexandre Gosselin",
           "url": "http://localhost:8080/artiste/maxime-alexandre-gosselin/",
           "image": {
@@ -126,7 +126,7 @@
     },
     {
       "@type": "CreativeWork",
-      "@id": "http://topo.art/r/c3439",
+      "@id": "http//topo.art/r/t3439",
       "name": "101 Song Scores | Sheena Hoszko et Michelle Lacombe",
       "url": "http://localhost:8080/production/101-song-scores-sheena-hoszko-et-michelle-lacombe/",
       "image": {

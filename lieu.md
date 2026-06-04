@@ -8,7 +8,7 @@ La modélisation retenue pour les lieux suit le schéma standard. À noter : nou
 ```json
 {
   "@type": "Place",
-  "@id": "https://topo.art/r#p1",
+  "@id": "http://topo.art/r/t1",
   "name": "La Vitrine",
   "address": {
     "@type": "PostalAddress",

@@ -3,7 +3,7 @@
 ```json
 {
   "@type": "Organization",
-  "@id": "https://topo.art/r#o1",
+  "@id": "http://topo.art/r/t1",
   "name": "TOPO",
   "url": "https://topo.art/",
   "additionalType": "http://kg.artsdata.ca/resource/ArtsOrganization",

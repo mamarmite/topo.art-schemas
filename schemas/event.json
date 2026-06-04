@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "@id": "https://topo.art/r#e1",
+  "@id": "http//topo.art/r/te1",
   "additionalType": "http://kg.artsdata.ca/resource/ExhibitionEvent",
   "Name": "4 heures | Michel Huneault et Johann Mazé",
   "alternateName": "Film d’observation non linéaire",
@@ -27,7 +27,7 @@
   "location": [
     {
       "@type": "Place",
-      "@id": "https://topo.art/r#p1",
+      "@id": "http//topo.art/r/tp1",
       "name": "La Vitrine",
       "address": {
         "@type": "PostalAddress",
@@ -56,7 +56,7 @@
   "organizer": [
     {
       "@type": "Organization",
-      "@id": "https://topo.art/r#o1",
+      "@id": "http//topo.art/r/to1",
       "name": "TOPO",
       "url": "https://topo.art/",
       "sameAs": [
@@ -69,14 +69,14 @@
   "workFeatured": [
     {
       "@type": "CreativeWork",
-      "@id": "https://topo.art/r#c882",
+      "@id": "http//topo.art/r/tc882",
       "additionalType": "http://www.wikidata.org/entity/Q11424",
       "name": "4 heures",
       "url": "https://topo.art/4heures/",
       "creator": [
         {
           "@type": "Person",
-          "@id": "https://topo.art/r#a8467",
+          "@id": "http//topo.art/r/t8467",
           "name": "Michel Huneault",
           "url": "http://michelhuneault.com/",
           "sameAs": [
@@ -86,7 +86,7 @@
         },
         {
           "@type": "Person",
-          "@id": "https://topo.art/r#a8469",
+          "@id": "http//topo.art/r/t8469",
           "name": "Johann Mazé",
           "sameAs": "https://johannmaze.bandcamp.com/"
         }

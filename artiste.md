@@ -7,10 +7,10 @@ La modélisation retenue pour les personnes suit un schéma minimal. Pour compen
 ```json
 {
   "@type": "Person",
-  "@id": "https://topo.art/r#a8467",
+  "@id": "http://topo.art/r/t8467",
   "name": "Michel Huneault",
   "alternateName": "Michel Huneault",
-  "disambiguatingDescription": "Artiste québécois."
+  "disambiguatingDescription": "Artiste québécois.",
   "image": "",
   "url": "http://michelhuneault.com/",
   "sameAs": [

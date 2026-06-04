@@ -7,7 +7,7 @@ Le lien entre l'œuvre et les personnes qui l'ont créée est articulé avec la 
 ```json
 {
   "@type": "CreativeWork",
-  "@id": "https://topo.art/r#c882",
+  "@id": "http://topo.art/r/t882",
   "additionalType": "http://iflastandards.info/ns/lrm/lrmoo/F1",
   "name": "4 heures",
   "alternateName ": "4h",
@@ -19,7 +19,7 @@ Le lien entre l'œuvre et les personnes qui l'ont créée est articulé avec la 
   "creator": [
     {
       "@type": "Person",
-      "@id": "https://topo.art/r#a8467",
+      "@id": "http://topo.art/r/t8467",
       "name": "Michel Huneault",
       "url": "http://michelhuneault.com/",
       "sameAs": [
@@ -29,7 +29,7 @@ Le lien entre l'œuvre et les personnes qui l'ont créée est articulé avec la 
     },
     {
       "@type": "Person",
-      "@id": "https://topo.art/r#a8469",
+      "@id": "http://topo.art/r/t8469",
       "name": "Johann Mazé",
       "sameAs": "https://johannmaze.bandcamp.com/"
     }
